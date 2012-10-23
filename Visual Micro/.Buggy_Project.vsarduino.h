@@ -32,3 +32,5 @@ extern "C" void __cxa_pure_virtual() {}
 #include "C:\Users\Simon\Documents\Arduino\Buggy_Project\Buggy_Project.ino"
 #include "C:\Users\Simon\Documents\Arduino\Buggy_Project\motor.cpp"
 #include "C:\Users\Simon\Documents\Arduino\Buggy_Project\motor.h"
+#include "C:\Users\Simon\Documents\Arduino\Buggy_Project\rs232.cpp"
+#include "C:\Users\Simon\Documents\Arduino\Buggy_Project\rs232.h"

@@ -12,7 +12,7 @@
         <VCCodeMacro Name="F_CPU" Value="16000000L" />
         <VCCodeMacro Name="__AVR__" Value="" />
         <VCCodeMacro Name="__cplusplus" Value="" />
-        <VCCodeMacro Name="pcBaud" Value="9600" />
+        <VCCodeMacro Name="Baud" Value="9600" />
         <VCCodeMacro Name="__attribute__" Value="" />
         <VCCodeMacro Name="__inline__" Value="" />
         <VCCodeMacro Name="__asm__" Value="" />

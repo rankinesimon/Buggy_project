@@ -18,10 +18,16 @@
     <None Include="Buggy_Project.ino" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Dropbox\Documents\Uni\Buggy project\Code\Buggy Project\libraries\motor.h">
+    <ClInclude Include="rs232.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="rs232.h">
+    <ClInclude Include="interrupts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="motor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Visual Micro\.Buggy_Project.vsarduino.h">
@@ -33,6 +39,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="rs232.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="interrupts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="error.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

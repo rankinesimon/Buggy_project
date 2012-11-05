@@ -41,10 +41,10 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>C:\Users\Simon\Documents\installers\arduino-1.0.1\hardware\arduino\cores\arduino;C:\Users\Simon\Documents\installers\arduino-1.0.1\hardware\arduino\variants\standard;c:\users\simon\documents\installers\arduino-1.0.1\hardware\tools\avr\avr\include\;c:\users\simon\documents\installers\arduino-1.0.1\hardware\tools\avr\avr\include\avr\;c:\users\simon\documents\installers\arduino-1.0.1\hardware\tools\avr\avr\;c:\users\simon\documents\installers\arduino-1.0.1\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Simon\Documents\installers\arduino-1.0.1\hardware\arduino\cores\arduino;C:\Users\Simon\Documents\installers\arduino-1.0.1\hardware\arduino\variants\mega;c:\users\simon\documents\installers\arduino-1.0.1\hardware\tools\avr\avr\include\;c:\users\simon\documents\installers\arduino-1.0.1\hardware\tools\avr\avr\include\avr\;c:\users\simon\documents\installers\arduino-1.0.1\hardware\tools\avr\avr\;c:\users\simon\documents\installers\arduino-1.0.1\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>C:\Users\Simon\Documents\Arduino\Buggy_Project\Visual Micro\.Buggy_Project.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
-      <PreprocessorDefinitions>ARDUINO=101;__AVR_ATmega328P__;F_CPU=16000000L;__AVR__;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>ARDUINO=101;__AVR_ATmega2560__;F_CPU=16000000L;__AVR__;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -69,15 +69,24 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Dropbox\Documents\Uni\Buggy project\Code\Buggy Project\libraries\motor.h" />
+    <ClInclude Include="error.h" />
+    <ClInclude Include="interrupts.h" />
+    <ClInclude Include="motor.h" />
     <ClInclude Include="rs232.h" />
     <ClInclude Include="Visual Micro\.Buggy_Project.vsarduino.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="error.cpp" />
+    <ClCompile Include="interrupts.cpp" />
     <ClCompile Include="motor.cpp" />
     <ClCompile Include="rs232.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties arduino.upload.port="COM12" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

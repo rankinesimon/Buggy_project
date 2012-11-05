@@ -1,19 +1,18 @@
 <VisualMicro>
   <Program Name="Buggy_Project" Ext=".ino" Location="C:\Users\Simon\Documents\Arduino\Buggy_Project">
-    <Compile CompilerErrors="0" ConfigurationName="Debug" StopOnError="False" OptimiseLibs="True" OptimiseCore="True" BuildPath="C:\Users\Simon\AppData\Local\VMicro\Arduino\Builds\Buggy_Project\uno" IncludeDebug="0" IncludesDebug="0" SketchName="Buggy_Project" IsCompiled="1" />
+    <Compile CompilerErrors="0" ConfigurationName="Debug" StopOnError="False" OptimiseLibs="True" OptimiseCore="True" BuildPath="C:\Users\Simon\AppData\Local\VMicro\Arduino\Builds\Buggy_Project\mega2560" IncludeDebug="0" IncludesDebug="0" SketchName="Buggy_Project" IsCompiled="1" />
     <Platform Name="Arduino">
-      <Board Name="uno" Description="Arduino Uno" CoreFolder="C:\Users\Simon\Documents\installers\arduino-1.0.1\hardware\arduino\cores\arduino" VariantFullPath="C:\Users\Simon\Documents\installers\arduino-1.0.1\hardware\arduino\variants\standard" />
+      <Board CoreFolder="C:\Users\Simon\Documents\installers\arduino-1.0.1\hardware\arduino\cores\arduino" Name="mega2560" Description="Arduino Mega 2560 or Mega ADK" VariantFullPath="C:\Users\Simon\Documents\installers\arduino-1.0.1\hardware\arduino\variants\mega" />
     </Platform>
     <VCCodeModel>
       <VCCodeMacros>
         <VCCodeMacro Name="ARDUINO" Value="101" />
-        <VCCodeMacro Name="motor_h" Value="" />
-        <VCCodeMacro Name="__AVR_ATmega328P__" Value="" />
+        <VCCodeMacro Name="__AVR_ATmega2560__" Value="" />
         <VCCodeMacro Name="F_CPU" Value="16000000L" />
         <VCCodeMacro Name="__AVR__" Value="" />
         <VCCodeMacro Name="__cplusplus" Value="" />
-        <VCCodeMacro Name="Baud" Value="9600" />
         <VCCodeMacro Name="__attribute__" Value="" />
+        <VCCodeMacro Name="Baud" Value="9600" />
         <VCCodeMacro Name="__inline__" Value="" />
         <VCCodeMacro Name="__asm__" Value="" />
         <VCCodeMacro Name="__extension__" Value="" />

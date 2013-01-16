@@ -69,24 +69,28 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="circuit.h" />
     <ClInclude Include="error.h" />
     <ClInclude Include="interrupts.h" />
     <ClInclude Include="motor.h" />
     <ClInclude Include="rs232.h" />
+    <ClInclude Include="StopWatch.h" />
     <ClInclude Include="Visual Micro\.Buggy_Project.vsarduino.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="circuit.cpp" />
     <ClCompile Include="error.cpp" />
     <ClCompile Include="interrupts.cpp" />
     <ClCompile Include="motor.cpp" />
     <ClCompile Include="rs232.cpp" />
+    <ClCompile Include="StopWatch.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties arduino.upload.port="COM12" />
+      <UserProperties arduino.upload.port="COM19" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

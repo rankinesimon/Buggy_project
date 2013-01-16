@@ -11,6 +11,7 @@ motor::motor(){
 }
 
 boolean motor::forwards(int step){
+	analogWrite(2,127);
  return true; 
 }
 
@@ -35,5 +36,6 @@ boolean motor::runBack(){
 }
 
 boolean motor::stop(){
+	analogWrite(2,0);
   return true;
 }

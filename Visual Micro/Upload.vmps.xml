@@ -7,18 +7,20 @@
     <VCCodeModel>
       <VCCodeMacros>
         <VCCodeMacro Name="ARDUINO" Value="101" />
+        <VCCodeMacro Name="StopWatch_h" Value="" />
         <VCCodeMacro Name="__AVR_ATmega2560__" Value="" />
         <VCCodeMacro Name="F_CPU" Value="16000000L" />
         <VCCodeMacro Name="__AVR__" Value="" />
         <VCCodeMacro Name="__cplusplus" Value="" />
         <VCCodeMacro Name="__attribute__" Value="" />
-        <VCCodeMacro Name="Baud" Value="9600" />
         <VCCodeMacro Name="__inline__" Value="" />
+        <VCCodeMacro Name="Baud" Value="9600" />
         <VCCodeMacro Name="__asm__" Value="" />
         <VCCodeMacro Name="__extension__" Value="" />
         <VCCodeMacro Name="__ATTR_PURE__" Value="" />
         <VCCodeMacro Name="__ATTR_CONST__" Value="" />
         <VCCodeMacro Name="__inline__" Value="" />
+        <VCCodeMacro Name="STOPWATCH_LIB_VERSION" Value="&quot;0.1.03&quot;" />
         <VCCodeMacro Name="__asm__" Value="" />
         <VCCodeMacro Name="__volatile__" Value="" />
         <VCCodeMacro Name="__builtin_va_list" Value="" />
@@ -30,7 +32,7 @@
         <VCCodeMacro Name="NOINLINE" Value="__attribute__((noinline))" />
       </VCCodeMacros>
       <VCCodeVariables>
-        <VCCodeVariable Name="led" />
+        <VCCodeVariable Name="E" />
       </VCCodeVariables>
     </VCCodeModel>
   </Program>
